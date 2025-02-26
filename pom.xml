@@ -8,8 +8,8 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>RestAssured</name>
-	<url>http://maven.apache.org</url>
+	<!-- <name>RestAssured</name>
+	<url>http://maven.apache.org</url>-->
 
 	<properties>
 		<maven.compiler.source>1.8</maven.compiler.source>
@@ -22,7 +22,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
-				<version>3.0.0-M5</version>
+				<version>3.5.2</version>
 				<configuration>
 					<suiteXmlFiles>
 						<suiteXmlFile>
